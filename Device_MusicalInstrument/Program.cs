@@ -1,0 +1,23 @@
+﻿Device device = new("device");
+Kettle kettle = new("kettle");
+Car car = new("car");
+Microwave microwave = new("microwave");
+Steamboat steamboat = new("steamboat");
+
+device.Show();
+kettle.Show();
+car.Show();
+microwave.Show();
+steamboat.Show();
+Console.WriteLine("\n\n");
+device.Sound();
+kettle.Sound();
+car.Sound();
+microwave.Sound();
+steamboat.Sound();
+Console.WriteLine("\n\n");
+device.Desc();
+kettle.Desc();
+car.Desc();
+microwave.Desc();
+steamboat.Desc();
